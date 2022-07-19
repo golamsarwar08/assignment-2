@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* Common Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* Header Section */
+.top-banner {
+    background-image: url(images/bgphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 40px 140px;
+    border-radius: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.header {
+    font-size: 70px;
+    margin-top: 6%;
+    padding-left: 12%;
+    text-shadow: 100px;
+}
+
+.paragraph {
+    padding-left: 15%;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-right: 10%;
+    padding-left: 12%;
+    text-shadow: 100px;
+}
+
+.watch-button {
+    background-image: linear-gradient(rgb(112, 155, 255), #4300a8);
+    border-radius: 5px;
+    color: white;
+    padding: 15px 40px;
+    width: 196px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    position: relative;
+    top: 22px;
+    margin-left: 12%;
+}
+
+.fa-angle-right {
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.image {
+    width: 515px;
+    position: relative;
+    top: 7px;
+    right: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #85ff60;
+    margin-left: 9%;
+    border-radius: 10px;
+    width: 21%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+}
+
+nav li {
+
+    list-style: none;
+    margin-left: 5px;
+    padding: 21px 3px;
+    width: 300px;
+    height: 15px;
+
+}
+
+.button {
+    background-image: linear-gradient(rgb(112, 155, 255), #4300a8);
+    border-radius: 8px;
+    color: white;
+    padding: 15px 54px;
+    font-size: 16px;
+    font-weight: bold;
+    position: sticky;
+    margin: 5%;
+}
+
+#list2 {
+    padding-left: 92px;
+    padding-right: 92px;
+}
+
+#list3 {
+    padding-left: 116px;
+    padding-right: 116px;
+}
+
+@media screen (max-width:588px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: row;
+        background-color: transparent;
+    }
+
+}
