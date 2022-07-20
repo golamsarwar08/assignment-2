@@ -70,7 +70,7 @@
 
 /* Sidebar Section */
 .sticky-sidebar {
-    background-image: url(images/football.jpg);
+    background: black;
     padding: 35px 30px 20px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -90,12 +90,6 @@
     margin-top: 4%;
 }
 
-nav li a:hover {
-    background-color: #121212;
-    color: white;
-    transition: 0.7s;
-}
-
 .button {
     background: rgb(91, 91, 244);
     border-radius: 8px;
@@ -107,6 +101,14 @@ nav li a:hover {
     top: 1%;
     text-align: center;
 }
+
+nav li a:hover {
+    background-color: #121212;
+    color: white;
+    transition: 0.7s;
+}
+
+
 
 #list2 {
     padding-left: 92px;
@@ -237,6 +239,45 @@ hr {
     top: 80px;
 }
 
+/* Match Webpage Section */
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flex-container img {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 12px;
+}
+
+.vs {
+    margin-top: 25px;
+    padding: 0 10px
+}
+
+.match-header {
+    color: #121212 flex-direction: column;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.match-paragraph {
+    color: rgb(165, 165, 165);
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.match-border {
+    border: 2px solid rgb(145, 145, 145);
+    box-shadow: #121212;
+    margin-right: 60px;
+    margin-left: 2px;
+    border-radius: 10px;
+}
 
 @media screen (max-width:588px) {
     .flex-container {
